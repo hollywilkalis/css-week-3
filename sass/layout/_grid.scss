@@ -1,0 +1,6 @@
+/* For testing only */
+
+*:not(body):not(html):not(p) {
+  box-sizing:border-box;
+  border:1px dashed #000;
+}

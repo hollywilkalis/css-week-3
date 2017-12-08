@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'mochamattari';
+  src: url('../fonts/mochamattari.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+  @include font-color($primary-color);
+  font-family: mochamattari;
+  font-size: 40px;
+}
+
+h2 {
+  @include font-color($secondary-color);
+  font-family: mochamattari;
+  font-size: 35px;
+}
+
+h3 {
+  @include font-color($secondary-color);
+  font-family: mochamattari;
+  font-size: 32px;
+  margin-top: 10px;
+}
+
+.card-title {
+  @include font-color($primary-color);
+  font-family: mochamattari;
+}
