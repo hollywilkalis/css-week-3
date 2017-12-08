@@ -77,7 +77,8 @@ h3 {
   border-style: ridge;
   border-color: #C4711D;
   border-width: 10px;
-  border-radius: 10px; }
+  border-radius: 10px;
+  background-color: white; }
 
 /* For testing only */
 *:not(body):not(html):not(p) {
@@ -146,13 +147,45 @@ body {
 .column-12 {
   width: 100%; }
 
-@media only screen and (min-width: 30em) {
-  .wrapper {
-    width: 95%;
-    max-width: 65em; }
+.card-column {
+  width: 30%;
+  float: left;
+  margin: 10px; }
 
-  .card {
+@media only screen and (max-width: 30em) {
+  .column-1 {
+    width: 11.1111111111%; }
+
+  .column-2 {
+    width: 22.2222222222%; }
+
+  .column-3 {
+    width: 33.3333333333%; }
+
+  .column-4 {
+    width: 44.4444444444%; }
+
+  .column-5 {
+    width: 55.5555555556%; }
+
+  .column-6 {
+    width: 66.6666666667%; }
+
+  .column-7 {
+    width: 77.7777777778%; }
+
+  .column-8 {
+    width: 88.8888888889%; }
+
+  .column-9 {
+    width: 100%; }
+
+  .wrapper {
+    width: 95%; }
+
+  .card-column {
     width: 47%;
+    min-width: 200px;
     float: left;
     margin: 10px; } }
 #header {

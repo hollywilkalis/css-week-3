@@ -39,21 +39,33 @@ body {
 }
 
 @for $i from 1 through 12 {
-  .column-#{$i} {
-    width: 100% / 12 * $i;
-  }
+    .column-#{$i} {
+        width: 100% / 12 * $i;
+    }
 }
 
-
+.card-column {
+  width: 30%;
+  float: left;
+  margin: 10px;
+}
 
 @media #{$breakpoint-medium} {
-  .wrapper {
-    width: 95%;
-    max-width: 65em;
+
+  @for $i from 1 through 9 {
+      .column-#{$i} {
+          width: 100% / 9 * $i;
+      }
   }
 
-  .card {
+  .wrapper {
+    width: 95%;
+    // max-width: 65em;
+  }
+
+  .card-column {
     width: 47%;
+    min-width: 200px;
     float: left;
     margin: 10px;
   }
