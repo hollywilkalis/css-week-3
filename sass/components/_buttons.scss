@@ -2,6 +2,7 @@
   background-color: $primary-color;
   color: white;
   margin-top: 10px;
+  padding: 10px;
 }
 
 .btn-lg {
@@ -10,4 +11,20 @@
   height: 100%;
   margin-top: 0;
   border-radius: 0;
+}
+
+#donate {
+  .btn {
+    font-family: Encode sans-serif;
+    padding: 0;
+    background-color: $secondary-color;
+    font-size: 20px;
+    font-stretch: semi-condensed;
+    font-weight: bold;
+    height: auto;
+  }
+
+  a {
+    align-content: center;
+  }
 }

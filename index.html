@@ -3,10 +3,11 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
     <link rel="stylesheet" href="css/styles.css">
     <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/materialize.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
 
     <title>Bubbaville</title>
@@ -32,7 +33,122 @@
         </nav>
       </div>
 
-      <div id="feature" class="">
+      <div id="feature">
+        <div class="carousel carousel-slider center" data-indicators="true">
+          <div class="carousel-fixed-item center">
+            <a class="btn waves-effect white grey-text darken-text-2">button</a>
+          </div>
+          <div class="carousel-item primary white-text" id="item-1" href="#one!">
+            <h2>First Panel</h2>
+            <p class="white-text">This is your first panel</p>
+          </div>
+          <div class="carousel-item primary white-text" id="item-2" href="#two!">
+            <h2>Second Panel</h2>
+            <p class="white-text">This is your second panel</p>
+          </div>
+          <div class="carousel-item primary white-text" id="item-3" href="#three!">
+            <h2>Third Panel</h2>
+            <p class="white-text">This is your third panel</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="content">
+        <div class="row">
+          <div id="projects" class="column-9">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="img/residency.gif">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+                <p><a href="#">This is a link</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="img/residency.gif">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+                <p><a href="#">This is a link</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="img/residency.gif">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+                <p><a href="#">This is a link</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="img/residency.gif">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+                <p><a href="#">This is a link</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+              </div>
+            </div>
+          </div>
+          <div id="instagram" class="column-3">
+            <h2>There will eventually be a Facebook or Insta feed embedded here</h2>
+          </div>
+        </div>
+      </div>
+
+      <div id="donate">
+        <a class="waves-effect waves-light btn column-12"><i class="material-icons left">music_note</i><i class="material-icons right">music_note</i>Help us keep the music playing by making a donation to the Bubba Fund</a>
+      </div>
+
+      <div id="footer">
+        <div class="row">
+          <div id="contact" class="column-4">
+            <h3>Contact</h3>
+            <p>Bubbaville, Inc.<br>
+              PO Box 6012<br>
+              Portland, OR 97228</p>
+              <p>E-mail: <a href="mailto:bubbavillepdx@gmail.com">bubbavillepdx@gmail.com</a>
+              <p>Voicemail: 503-206-0657</p>
+              <p>Website: <a href="http://www.bubbaville.org">www.bubbaville.org</a></p>
+          </div>
+          <div id="subscribe" class="column-4">
+            <h3>Subscribe to our newsletter</h3>
+            <div class="input-field">
+              <input placeholder="Name" id="input_name" type="text" class="validate">
+              <label for="input_name">Name</label>
+            </div>
+            <div class="input-field">
+              <input id="input_email" type="email" class="validate">
+              <label for="last_name">E-mail address</label>
+            </div>
+            <a href="#" class="button-main">Subscribe</a>
+
+          </div>
+          <div id="mission" class="column-4">
+            <h3>About Bubbaville</h3>
+            <p>Some mission stuff will go here</p>
+          </div>
+        </div>
+
 
       </div>
 

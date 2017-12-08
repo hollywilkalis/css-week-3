@@ -34,7 +34,8 @@ h3 {
 .button-main {
   background-color: #3D507E;
   color: white;
-  margin-top: 10px; }
+  margin-top: 10px;
+  padding: 10px; }
 
 .btn-lg {
   font-family: mochamattari;
@@ -42,6 +43,41 @@ h3 {
   height: 100%;
   margin-top: 0;
   border-radius: 0; }
+
+#donate .btn {
+  font-family: Encode sans-serif;
+  padding: 0;
+  background-color: #C4711D;
+  font-size: 20px;
+  font-stretch: semi-condensed;
+  font-weight: bold;
+  height: auto; }
+#donate a {
+  align-content: center; }
+
+#item-1 {
+  background-image: url("../img/index.png");
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+#item-2 {
+  background-image: url("../img/Arizona.jpg");
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+#item-3 {
+  background-image: url("../img/Travis-Stuart.jpg");
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.primary {
+  background-color: #3D507E; }
+
+#footer {
+  border-style: ridge;
+  border-color: #C4711D;
+  border-width: 10px;
+  border-radius: 10px; }
 
 /* For testing only */
 *:not(body):not(html):not(p) {
@@ -74,46 +110,51 @@ img {
 body {
   background-color: #F0EEE9; }
 
+.column-1 {
+  width: 8.3333333333%; }
+
+.column-2 {
+  width: 16.6666666667%; }
+
+.column-3 {
+  width: 25%; }
+
+.column-4 {
+  width: 33.3333333333%; }
+
+.column-5 {
+  width: 41.6666666667%; }
+
+.column-6 {
+  width: 50%; }
+
+.column-7 {
+  width: 58.3333333333%; }
+
+.column-8 {
+  width: 66.6666666667%; }
+
+.column-9 {
+  width: 75%; }
+
+.column-10 {
+  width: 83.3333333333%; }
+
+.column-11 {
+  width: 91.6666666667%; }
+
+.column-12 {
+  width: 100%; }
+
 @media only screen and (min-width: 30em) {
   .wrapper {
     width: 95%;
     max-width: 65em; }
 
-  .column-1 {
-    width: 8.3333333333%; }
-
-  .column-2 {
-    width: 16.6666666667%; }
-
-  .column-3 {
-    width: 25%; }
-
-  .column-4 {
-    width: 33.3333333333%; }
-
-  .column-5 {
-    width: 41.6666666667%; }
-
-  .column-6 {
-    width: 50%; }
-
-  .column-7 {
-    width: 58.3333333333%; }
-
-  .column-8 {
-    width: 66.6666666667%; }
-
-  .column-9 {
-    width: 75%; }
-
-  .column-10 {
-    width: 83.3333333333%; }
-
-  .column-11 {
-    width: 91.6666666667%; }
-
-  .column-12 {
-    width: 100%; } }
+  .card {
+    width: 47%;
+    float: left;
+    margin: 10px; } }
 #header {
   background-color: white; }
   #header img {
@@ -130,8 +171,7 @@ nav a {
   color: #F0EEE9;
   font-weight: 100;
   text-align: center;
-  font-family: mochamattari;
-  font-stretch: expanded; }
+  font-family: mochamattari; }
 nav li {
   width: 20%; }
 

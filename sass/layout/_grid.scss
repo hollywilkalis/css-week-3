@@ -38,15 +38,23 @@ body {
   background-color: $accent-one;
 }
 
+@for $i from 1 through 12 {
+  .column-#{$i} {
+    width: 100% / 12 * $i;
+  }
+}
+
+
+
 @media #{$breakpoint-medium} {
   .wrapper {
     width: 95%;
     max-width: 65em;
   }
 
-  @for $i from 1 through 12 {
-    .column-#{$i} {
-          width: 100% / 12 * $i;
-    }
+  .card {
+    width: 47%;
+    float: left;
+    margin: 10px;
   }
 }

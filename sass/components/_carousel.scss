@@ -1,0 +1,22 @@
+#item-1 {
+  background-image: url("../img/index.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#item-2 {
+  background-image: url("../img/Arizona.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+
+#item-3 {
+  background-image: url("../img/Travis-Stuart.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.primary {
+  background-color: $primary-color;
+}

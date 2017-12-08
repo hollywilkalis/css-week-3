@@ -5,6 +5,8 @@
   font-style: normal;
 }
 
+// font-family: 'Encode Sans Condensed', sans-serif;
+
 h1 {
   @include font-color($primary-color);
   font-family: mochamattari;
