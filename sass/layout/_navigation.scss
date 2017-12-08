@@ -1,0 +1,18 @@
+.nav-wrapper {
+  background-color: $primary-color;
+  border-color: $accent-one;
+}
+
+nav {
+  a {
+    color: $accent-one;
+    font-weight: 100;
+    text-align: center;
+    font-family: mochamattari;
+    font-stretch: expanded;
+  }
+
+  li {
+    width: 20%;
+  }
+}
