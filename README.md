@@ -48,19 +48,8 @@ I still think using a Bootstrap grid or at least making use of the looping examp
 Today I want to try a simpler version of the page, one that makes better use of a framework for things like the nav bar and a slideshow, so that fewer things have to be custom built. I'm not sure yet how I want to create the grid yet - maybe going back to the Monday exercises. I will definitely be focusing more on building one element at a time, and completing one media query at a time (I hope!).
 
 ### SASS elements used
-<table>
-<tr>MIXIN</tr>
-<tr>Used to create custom "brand" colors to be reused across a variety of elements.</tr>
-
-<tr>OPERATORS</tr>
-<tr>Used to create custom element sizes</tr>
-
-<tr>EXTEND/INHERITANCE</tr>
-<tr>Used to create certain base styles for a series of similar elements, in this case the styling of the three parts of our footer</tr>
-
-<tr>NESTING</tr>
-<tr>We intended to use nesting for some elements of the nav bar but we never got that built out.</tr>
-
-<tr>PARTIALS</tr>
-<tr>We definitely made use of partials to organize our SCSS.</tr>
-</table>
+| Mixin              | Used to create custom "brand" colors to be reused across a variety of elements.                                                |
+| Operators          | Used to create custom element sizes                                                                                            |
+| Extend/inheritance | Used to create certain base styles for a series of similar elements, in this case the styling of the three parts of our footer |
+| Partials           | We definitely made use of partials to organize our SCSS.                                                                       |
+| Nesting            | We intended to use nesting for some elements of the nav bar but we never got that built out.                                   |
