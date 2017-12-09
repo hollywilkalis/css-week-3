@@ -26,7 +26,25 @@ h3 {
   margin-top: 10px;
 }
 
+h4 {
+  @include font-color($secondary-color);
+  font-size: 25px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.emphasis {
+  @include font-color($primary-color);
+  font-weight: bold;
+}
+
 .card-title {
   @include font-color($primary-color);
   font-family: mochamattari;
+}
+
+.slider-title {
+  @include font-color($primary-color);
+  font-family: mochamattari;
+  font-size: 60px;
 }

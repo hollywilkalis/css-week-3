@@ -5,24 +5,26 @@
   padding: 10px;
 }
 
-.btn-lg {
+.btn-large {
   font-family: mochamattari;
-  font-size: 40px;
+  font-size: 20px;
   height: 100%;
-  margin-top: 0;
-  border-radius: 0;
+  margin: 15px;
+  border-radius: 10;
+  background-color: $primary-color;
+  display: block;
 }
 
 #donate {
-  .btn {
-    font-family: Encode sans-serif;
-    padding: 0;
-    background-color: $secondary-color;
-    font-size: 20px;
-    font-stretch: semi-condensed;
-    font-weight: bold;
-    height: auto;
-  }
+  // .btn {
+  //   font-family: Encode sans-serif;
+  //   padding: 0;
+  //   background-color: $secondary-color;
+  //   font-size: 20px;
+  //   font-stretch: semi-condensed;
+  //   font-weight: bold;
+  //   height: auto;
+  // }
 
   a {
     align-content: center;
