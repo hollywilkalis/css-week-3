@@ -63,3 +63,4 @@ Today I want to try a simpler version of the page, one that makes better use of 
 
 <tr>PARTIALS</tr>
 <tr>We definitely made use of partials to organize our SCSS.</tr>
+</table>
